@@ -1,4 +1,4 @@
-var Guerrero = requiere('./Guerrero')
+var Guerrero = require('./Guerrero')
 
 class Infanteria extends Guerrero {
     constructor(){

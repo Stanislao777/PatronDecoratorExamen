@@ -1,4 +1,4 @@
-var Decorator = requier('./Decorator_Arma');
+var DecoratorArma = require('./Decorator_Arma');
 
 class Hierro extends DecoratorArma {
     constructor(guerrero) {

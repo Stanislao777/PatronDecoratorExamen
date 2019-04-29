@@ -3,4 +3,4 @@ class Guerrero{
     }
 }
 
-module.exports = Guerreo;
+module.exports = Guerrero;
