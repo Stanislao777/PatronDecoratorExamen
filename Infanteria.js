@@ -3,10 +3,11 @@ var Guerrero = require('./Guerrero')
 class Infanteria extends Guerrero {
     constructor(){
         super();
+        this.DanioInicial = 10;
     }
 
     calcularDanio(){
-        return 10;
+        return this.DanioInicial;
     }
 }
 

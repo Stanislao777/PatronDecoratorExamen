@@ -4,10 +4,11 @@ class Fuego extends DecoratorArma {
   constructor(guerrero) {
     super();
     this.guerrero = guerrero;
+    this.danio = 30;
   }
 
   calcularDanio() {
-    return this.guerrero.calcularDanio() + 30;
+    return this.guerrero.calcularDanio() + this.danio ;
   }
 }
 
